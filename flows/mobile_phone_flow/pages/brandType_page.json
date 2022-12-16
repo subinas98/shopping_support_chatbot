@@ -1,0 +1,42 @@
+{
+  "name": "30add9ea-e19b-4731-898e-c714b8e6aa48",
+  "displayName": "brandType_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "these are the brands we offer, iphone and samsung" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "iPhones"
+          }, {
+            "text": "Samsungs"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "order_iphone_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "iphone_model_page",
+    "name": "41970847-9bd0-4b41-93ae-36846c9f5813"
+  }, {
+    "intent": "order_samsung_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "samsung_page",
+    "name": "ad15a5d9-1897-4b3c-87f4-136c37e9493e"
+  } ]
+}

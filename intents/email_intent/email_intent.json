@@ -1,0 +1,10 @@
+{
+  "name": "86508e38-649b-4f1f-9dfa-b532da03b3c0",
+  "displayName": "email_intent",
+  "parameters": [ {
+    "id": "email",
+    "entityType": "@sys.email",
+    "redact": true
+  } ],
+  "priority": 500000
+}

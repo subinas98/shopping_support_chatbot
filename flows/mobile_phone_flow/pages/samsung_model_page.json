@@ -1,0 +1,28 @@
+{
+  "name": "dc25d31d-4d08-4b4d-bce6-0a97fa604494",
+  "displayName": "samsung_model_page",
+  "form": {
+    "parameters": [ {
+      "displayName": "samsung_model_parameter",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "These are the samsung models we have\ngalaxy S22, galaxy S20" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "name": "95bd510d-4e94-430e-931e-250bae11a98b"
+  } ]
+}

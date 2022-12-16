@@ -1,0 +1,30 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "galaxy "
+    }, {
+      "text": "s20",
+      "parameterId": "s20_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want "
+    }, {
+      "text": "s20",
+      "parameterId": "s20_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i like "
+    }, {
+      "text": "s20",
+      "parameterId": "s20_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

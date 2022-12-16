@@ -1,0 +1,9 @@
+{
+  "name": "09036b07-425b-47b6-abd4-39084113d131",
+  "displayName": "order_samsung_intent",
+  "parameters": [ {
+    "id": "samsung_entity",
+    "entityType": "@samsung_entity"
+  } ],
+  "priority": 500000
+}

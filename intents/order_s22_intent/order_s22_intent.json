@@ -1,0 +1,9 @@
+{
+  "name": "a75b1c19-e2e9-4447-ab12-a515017b37db",
+  "displayName": "order_s22_intent",
+  "parameters": [ {
+    "id": "s22_entity",
+    "entityType": "@s22_entity"
+  } ],
+  "priority": 500000
+}

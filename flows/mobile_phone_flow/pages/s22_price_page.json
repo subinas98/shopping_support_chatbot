@@ -1,0 +1,30 @@
+{
+  "name": "e2b29318-aa2e-4e46-b8c0-21d5fb04446e",
+  "displayName": "s22_price_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The price of s22 will be 60000\nshall we continue?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "s22_payment_page",
+    "name": "ec6ed7cf-bceb-4b53-8f18-1e785749985f"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "samsung_page",
+    "name": "38065f9b-0a66-4218-9edb-e5e568cee9e9"
+  } ]
+}

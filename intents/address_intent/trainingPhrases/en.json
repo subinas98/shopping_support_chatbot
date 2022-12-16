@@ -1,0 +1,10 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "alackal house",
+      "parameterId": "address"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

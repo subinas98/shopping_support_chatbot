@@ -1,0 +1,9 @@
+{
+  "name": "a96a39c0-3100-4017-9465-95f48d7c4e6c",
+  "displayName": "order_iphone13_intent",
+  "parameters": [ {
+    "id": "iphone_13_entity",
+    "entityType": "@iphone_13_entity"
+  } ],
+  "priority": 500000
+}

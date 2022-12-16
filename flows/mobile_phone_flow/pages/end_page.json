@@ -1,0 +1,15 @@
+{
+  "name": "32f5b418-7650-45bc-96b0-ea277b482c10",
+  "displayName": "end_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "thank you for shopping with us.." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

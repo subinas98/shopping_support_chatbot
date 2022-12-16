@@ -1,0 +1,64 @@
+{
+  "name": "7d82fd8f-2982-499b-917f-c659647710b2",
+  "displayName": "address_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "can you please provide your address. It is for shipping the item to your place" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Why you need address?"
+          }, {
+            "text": "No way"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "address_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$intent.params.address got it.." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "mobile_phone_flow",
+    "name": "e12c2d78-de72-4aca-adca-a0ca077c8f3b"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It is ok, but you need to provide the address after the purchase." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "mobile_phone_flow",
+    "name": "889a1d38-0606-4a48-99c7-c146651eab33"
+  }, {
+    "intent": "why_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "after you purchase something, we need your address to send that item to your place, that's why we are collecting the address." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "mobile_phone_flow",
+    "name": "6176c5ab-2e1d-4fd9-977f-7ffd7ebe9a42"
+  } ]
+}

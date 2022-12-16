@@ -1,0 +1,30 @@
+{
+  "name": "595c80b9-9fcf-47f0-8724-97e90f49f6a0",
+  "displayName": "s20_price_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The price of s20 will be 50000\nshall we conitnue?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "s20_payment_page",
+    "name": "bdbdb08e-64c2-406e-bec2-c8b9984599a5"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "samsung_page",
+    "name": "3a99e9cf-d632-424b-a573-419bc97a1709"
+  } ]
+}

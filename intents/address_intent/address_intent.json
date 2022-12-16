@@ -1,0 +1,10 @@
+{
+  "name": "d57ab82a-7430-4205-b4a2-8b77b39b486e",
+  "displayName": "address_intent",
+  "parameters": [ {
+    "id": "address",
+    "entityType": "@sys.address",
+    "redact": true
+  } ],
+  "priority": 500000
+}

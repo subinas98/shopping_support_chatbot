@@ -1,0 +1,51 @@
+{
+  "name": "3d35ffb3-a1ca-458b-b471-1aa2aabbab87",
+  "displayName": "iphone_model_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "These are the iphone models we offer\niPhone 13 and iPhone 14\nPlease choose one." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "iPhone 13"
+          }, {
+            "text": "iPhone 14"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "Model",
+      "value": "iPhone13"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "order_iphone13_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "iphone 13" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "iphone13_price_page",
+    "name": "00717dcb-16fb-49ae-8350-6e9b36152945"
+  }, {
+    "intent": "order_iphone14_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "iphone14_price_page",
+    "name": "88db7064-e807-4c79-8b5b-555ae26c5dfe"
+  } ]
+}

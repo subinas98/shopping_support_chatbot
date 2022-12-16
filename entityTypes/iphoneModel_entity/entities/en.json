@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "iphone14",
+    "synonyms": [ "14", "iphone14", "iphone 14" ],
+    "languageCode": "en"
+  }, {
+    "value": "iphone 13",
+    "synonyms": [ "13", "iphone 13", "iphone13" ],
+    "languageCode": "en"
+  } ]
+}

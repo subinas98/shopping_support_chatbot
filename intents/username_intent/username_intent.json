@@ -1,0 +1,10 @@
+{
+  "name": "8189368c-e6af-4a99-aa72-1c535159c18e",
+  "displayName": "username_intent",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person",
+    "redact": true
+  } ],
+  "priority": 500000
+}

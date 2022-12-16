@@ -1,0 +1,35 @@
+{
+  "name": "c9a3b2c5-3b31-4a45-8b66-a0618a6d5308",
+  "displayName": "iphone14_price_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "iPhone 14 price will be 70000\nshall we continue?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "14_payment_page",
+    "name": "f671e6ec-2425-43ba-a251-11aaba2ba7cd"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "sure." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "iphone_model_page",
+    "name": "529bb7b8-9832-4fc1-99ee-7576e8007e97"
+  } ]
+}

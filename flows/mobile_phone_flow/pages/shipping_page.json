@@ -1,0 +1,30 @@
+{
+  "name": "c0a32d32-9986-4d14-a580-76f37571af16",
+  "displayName": "shipping_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$session.params.address \n$session.params.email \nthis is the address and email you provided earlier.\nthe product will be sent to you at this provided address.\n\ndo you like to shop more $session.params.person?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "brandType_page",
+    "name": "1fd8e608-c5c8-431b-ae97-9f3f96ae2e3e"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "end_page",
+    "name": "67d8377a-e2d4-4903-a49b-20289cb83e11"
+  } ]
+}

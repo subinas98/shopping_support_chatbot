@@ -1,0 +1,30 @@
+{
+  "name": "d1dff404-755f-47ec-b33f-00965d0947b4",
+  "displayName": "samsung_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "These are the Samsung models we have\nGalaxy s20, Galaxy s22\nPlease choose one." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "order_s20_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "s20_price_page",
+    "name": "ad2a2e5c-d778-4e1f-97d0-063ac14edb1d"
+  }, {
+    "intent": "order_s22_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "s22_price_page",
+    "name": "de0a6383-51ae-4f09-877f-949bcf116ffd"
+  } ]
+}

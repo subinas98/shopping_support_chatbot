@@ -1,0 +1,9 @@
+{
+  "name": "dc78074e-6d95-4387-998d-e73c801825a4",
+  "displayName": "order_s20_intent",
+  "parameters": [ {
+    "id": "s20_entity",
+    "entityType": "@s20_entity"
+  } ],
+  "priority": 500000
+}

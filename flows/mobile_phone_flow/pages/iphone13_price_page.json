@@ -1,0 +1,47 @@
+{
+  "name": "8d90250f-fbf5-4bc5-b8fc-c46f9b1afe0c",
+  "displayName": "iphone13_price_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Great, you choose iPhone 13\nthe price of iPhone 13 will be 60000\nshall we continue?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes Please"
+          }, {
+            "text": "NO, go back"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "13_payment_page",
+    "name": "71c4507b-ec29-491c-8c4f-1b6a4d214bde"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Alright then, we can go back " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "iphone_model_page",
+    "name": "dcf45a24-7034-4232-9704-f267ee5e14b9"
+  } ]
+}

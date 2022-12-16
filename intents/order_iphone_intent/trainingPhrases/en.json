@@ -1,0 +1,26 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i want ",
+      "auto": true
+    }, {
+      "text": "iphone"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what are the "
+    }, {
+      "text": "iphone"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "iphones"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

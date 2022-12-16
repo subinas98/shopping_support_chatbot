@@ -1,0 +1,64 @@
+{
+  "name": "d4a0736c-3050-4340-a3ba-f3d75e7ce78f",
+  "displayName": "email_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "please give us your email to.." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Why?"
+          }, {
+            "text": "No way"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "email_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$intent.params.email got it" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "address_page",
+    "name": "c22149a0-9398-4d78-ad81-2fea7a5a218a"
+  }, {
+    "intent": "no_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "it is ok for now.\nafter the purchase, you need to provide the email and address to ship the item to your place." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "mobile_phone_flow",
+    "name": "06977793-56b6-461f-b7e1-4c7bcb4aaed1"
+  }, {
+    "intent": "why_intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "the email is important, you can use it to track you ordered items, but its ok, we can collect your email after you purchased any item" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "mobile_phone_flow",
+    "name": "c004cd0a-698a-4886-93e8-b00847ef7f1e"
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i want "
+    }, {
+      "text": "s22",
+      "parameterId": "s22_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i like "
+    }, {
+      "text": "s22",
+      "parameterId": "s22_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

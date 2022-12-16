@@ -1,0 +1,23 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i like ",
+      "auto": true
+    }, {
+      "text": "iphone 13",
+      "parameterId": "iphone_13_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want ",
+      "auto": true
+    }, {
+      "text": "iphone13",
+      "parameterId": "iphone_13_entity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

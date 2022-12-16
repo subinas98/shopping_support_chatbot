@@ -1,0 +1,23 @@
+{
+  "name": "8e7d0251-130f-41b5-a79d-f442e3d41397",
+  "displayName": "s20_payment_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "currently, we only provide cash on delivery feature.\nis it ok for you $session.params.person?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "shipping_page",
+    "name": "23274d49-e383-4a85-97bd-e9337791b7cb"
+  } ]
+}
